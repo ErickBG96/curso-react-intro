@@ -1,9 +1,9 @@
 
 export default function TodoList(props) {
   return (
-    <li>
+    <ul>
         {props.children}
-    </li>
+    </ul>
   )
 }
 

@@ -18,6 +18,7 @@ const TodoProvider = ({ children }) => {
   const totalTodos = todos.length;
 
   const searchedTodo = todos.filter((todo) => {
+    
     const removeAccents = (text) => {
       return text.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
     };
